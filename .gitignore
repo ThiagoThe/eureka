@@ -1,6 +1,7 @@
 
 bower_components
-.ideia
+.idea
 node_modules
 .sass-cache
 .ideia/vcs.xml
+.idea/
