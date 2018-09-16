@@ -24,6 +24,7 @@
     "sass-flex-mixin": "^1.0.3"
   },
   "devDependencies": {
-    "sass-flex-mixin": "^1.0.3"
+    "sass-flex-mixin": "^1.0.3",
+    "imagehover.css": "*"
   }
 }
