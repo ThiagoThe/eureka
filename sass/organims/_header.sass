@@ -2,6 +2,8 @@ header
   +clearfix
   min-height: 425px
   position: relative
+  bottom: 0px
+
 
   &:after
     content: ""
@@ -41,6 +43,18 @@ header
             color: $branco
             text-transform: uppercase
 
+            &:hover
+              &:after
+                width: 40%
+
+            &:after
+              content: ''
+              display: table
+              margin: 5px auto 0
+              width: 0%
+              height: 2px
+              background-color: $branco
+              +transition(.3s)
     .social
       li
         display: inline-block

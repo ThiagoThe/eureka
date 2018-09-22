@@ -8,83 +8,122 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/topo.css">
+    <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
     <link rel="stylesheet" href="css/plugins.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logowhite_th.png" alt="Logo Topo Tag" class="src">
-                </a>
-            </div>
 
-            <div class="links">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="portfolio.html">Portfólio</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
+    <nav class="menu-responsivo">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
 
-                <ul class="social">
-                    <li>
-                        <a href="https://www.facebook.com/thiago.pires.967?ref=bookmarks" class="fab fa-facebook"></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/ThiagoThe" class="fab fa-github-alt"></a>
-                    </li>
-                </ul>
-            </div>
-            <h1><strong>Thiago </strong><strong>Pires</strong></h1>
 
-            <p>Code // Share // Reboot</p>
-        </div>
-    </header>
-    <main>
-        <section class="sobre">
-            <div class="container">
-                <div class="itens">
-                    <div class="foto">
-                        <img src="img/rosto_home.png" alt="Foto TAG" class="src">
+    <div class="layout">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logowhite_th.png" alt="Logo Topo Tag" class="src">
+                        </a>
                     </div>
 
-                    <div class="icon-lapis">
-                        <i class="fas fa-pencil-alt"></i>
-                    </div>
+                    <div class="links">
+                        <nav >
+                            <ul>
+                                <li><a href="index.html">Início</a></li>
+                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><a href="portfolio.html">Portfólio</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </nav>
 
-                    <div class="icon-codigo">
-                        <i class="fas fa-code"></i>
+                        <a href="javascript:;" class="toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.facebook.com/thiago.pires.967?ref=bookmarks" class="fab fa-facebook"></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ThiagoThe" class="fab fa-github-alt"></a>
+                            </li>
+                        </ul>
                     </div>
+                    <h1><strong>Thiago </strong><strong>Pires</strong></h1>
 
-                    <div class="icon-coracao">
-                        <i class="fas fa-heart"></i>
-                    </div>
-
-                    <div class="icon-compartilhar">
-                        <i class="fas fa-share-alt"></i>
-                    </div>
+                    <p>Code // Share // Reboot</p>
                 </div>
-
-                <div class="text">
-                    <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Praesent vel viverra nisi.
-                        Mauris aliquet nunc non turpis scelerisque, eget..</p>
-
-                    <a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i> Continue Lendo</a>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
-
-<footer>
-    <div class="logo-rodape">
-        <a href="index.html">
-            <img src="img/logocolor_th.png" alt="Logo TAG Rodapé">
-        </a>
+            </header>
     </div>
-    <p>Direitos Autorais Reservados 2018</p>
-</footer>
+            <main>
+                <section class="sobre">
+                    <div class="container">
+                        <div class="itens">
+                            <div class="foto  wow flipInX" data-wow-duration="1s"
+                                 data-wow-delay="5s">
+                                <img src="img/rosto_home.png" alt="Foto TAG" class="src">
+                            </div>
+
+                            <div class="icon-lapis wow flipInX" data-wow-duration="1s"
+                            data-wow-delay="1s">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+
+                            <div class="icon-codigo wow flipInX" data-wow-duration="1s"
+                                 data-wow-delay="2s">
+                                <i class="fas fa-code"></i>
+                            </div>
+
+                            <div class="icon-coracao wow flipInX" data-wow-duration="1s"
+                                 data-wow-delay="3s">
+                                <i class="fas fa-heart"></i>
+                            </div>
+
+                            <div class="icon-compartilhar wow flipInX" data-wow-duration="1s"
+                                 data-wow-delay="4s">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Praesent vel viverra nisi.
+                                Mauris aliquet nunc non turpis scelerisque, eget..</p>
+
+                            <a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i> Continue Lendo</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="logo-rodape">
+                    <a href="index.html">
+                        <img src="img/logocolor_th.png" alt="Logo TAG Rodapé">
+                    </a>
+                </div>
+                <p>Direitos Autorais Reservados 2018</p>
+            </footer>
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/wow/dist/wow.min.js"></script>
+    <script>
+        $(function () {
+            $('.toggle').click(function () {
+                $('.layout').toggleClass('ativo');
+                $('.menu-responsivo').toggleClass('ativo');
+                $(this).toggleClass('ativo');
+            });
+            new WOW().init();
+        });
+    </script>
+
+</body>
 </html>
